@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1ebe4;
+    overflow: hidden;
+    touch-action: none;
+    user-select: none;
+}
+
+.grid-box {
+    position: relative;
+    height: 121.9vw;
+    width: 81.9vw;
+    background-color: #f2fcf8;
+    border-radius: 4vw;
+    border: 1vw solid #40cfb7;
+}
+
+.grid {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    /* border-radius: 3.2vw;
+    border: 0.1vw solid #333; */
+}
+
+.tile {
+    height: 20vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.tile img{
+    height: 28.7vw;
+    width: 28.7vw;
+}
+
+.row-1.column-1 {
+    top: 0;
+    left: 0;
+}
+
+.row-1.column-2 {
+    top: 0;
+    left: 20vw;
+}
+
+.row-1.column-3 {
+    top: 0;
+    left: 40vw;
+}
+
+.row-1.column-4 {
+    top: 0;
+    left: 60vw;
+}
+
+.row-2.column-1 {
+    top: 20vw;
+    left: 0;
+}
+
+.row-2.column-2 {
+    top: 20vw;
+    left: 20vw;
+}
+
+.row-2.column-3 {
+    top: 20vw;
+    left: 40vw;
+}
+
+.row-2.column-4 {
+    top: 20vw;
+    left: 60vw;
+}
+
+.row-3.column-1 {
+    top: 40vw;
+    left: 0;
+}
+
+.row-3.column-2 {
+    top: 40vw;
+    left: 20vw;
+}
+
+.row-3.column-3 {
+    top: 40vw;
+    left: 40vw;
+}
+
+.row-3.column-4 {
+    top: 40vw;
+    left: 60vw;
+}
+
+.row-4.column-1 {
+    top: 60vw;
+    left: 0;
+}
+
+.row-4.column-2 {
+    top: 60vw;
+    left: 20vw;
+}
+
+.row-4.column-3 {
+    top: 60vw;
+    left: 40vw;
+}
+
+.row-4.column-4 {
+    top: 60vw;
+    left: 60vw;
+}
+
+.row-5.column-1 {
+    top: 80vw;
+    left: 0;
+}
+
+.row-5.column-2 {
+    top: 80vw;
+    left: 20vw;
+}
+
+.row-5.column-3 {
+    top: 80vw;
+    left: 40vw;
+}
+
+.row-5.column-4 {
+    top: 80vw;
+    left: 60vw;
+}
+
+.row-6.column-1 {
+    top: 100vw;
+    left: 0;
+}
+
+.row-6.column-2 {
+    top: 100vw;
+    left: 20vw;
+}
+
+.row-6.column-3 {
+    top: 100vw;
+    left: 40vw;
+}
+
+.row-6.column-4 {
+    top: 100vw;
+    left: 60vw;
+}
