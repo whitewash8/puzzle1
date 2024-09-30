@@ -11,7 +11,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d1ebe4;
+    background-color: #a6f0f5;
     overflow: hidden;
     touch-action: none;
     user-select: none;
@@ -21,16 +21,16 @@ body, html {
     position: relative;
     height: 121.9vw;
     width: 81.9vw;
-    background-color: #f2fcf8;
-    border-radius: 4vw;
-    border: 1vw solid #40cfb7;
+    background-color: #ffffff;
+    border-radius: 5vw;
+    border: 1vw solid #4ef3ff;
 }
 
 .grid {
     position: absolute;
     width: 20vw;
     height: 20vw;
-    /* border-radius: 3.2vw;
+    /* border-radius: 5vw;
     border: 0.1vw solid #333; */
 }
 
@@ -44,126 +44,44 @@ body, html {
 }
 
 .tile img{
-    height: 28.7vw;
-    width: 28.7vw;
+    height: 28.8vw;
+    width: 28.8vw;
 }
 
-.row-1.column-1 {
-    top: 0;
-    left: 0;
+.row-1 {
+    top: 0vw;
 }
-
-.row-1.column-2 {
-    top: 0;
-    left: 20vw;
-}
-
-.row-1.column-3 {
-    top: 0;
-    left: 40vw;
-}
-
-.row-1.column-4 {
-    top: 0;
-    left: 60vw;
-}
-
-.row-2.column-1 {
+.row-2 {
     top: 20vw;
-    left: 0;
 }
-
-.row-2.column-2 {
-    top: 20vw;
-    left: 20vw;
-}
-
-.row-2.column-3 {
-    top: 20vw;
-    left: 40vw;
-}
-
-.row-2.column-4 {
-    top: 20vw;
-    left: 60vw;
-}
-
-.row-3.column-1 {
+.row-3 {
     top: 40vw;
-    left: 0;
+}
+.row-4 {
+    top: 60vw;
+}
+.row-5 {
+    top: 80vw;
+}
+.row-6 {
+    top: 100vw;
 }
 
-.row-3.column-2 {
-    top: 40vw;
+.column-1 {
+    left: 0vw;
+}
+.column-2 {
     left: 20vw;
 }
-
-.row-3.column-3 {
-    top: 40vw;
+.column-3 {
     left: 40vw;
 }
-
-.row-3.column-4 {
-    top: 40vw;
+.column-4 {
     left: 60vw;
 }
-
-.row-4.column-1 {
-    top: 60vw;
-    left: 0;
+.column-5 {
+    left: 80vw;
 }
-
-.row-4.column-2 {
-    top: 60vw;
-    left: 20vw;
-}
-
-.row-4.column-3 {
-    top: 60vw;
-    left: 40vw;
-}
-
-.row-4.column-4 {
-    top: 60vw;
-    left: 60vw;
-}
-
-.row-5.column-1 {
-    top: 80vw;
-    left: 0;
-}
-
-.row-5.column-2 {
-    top: 80vw;
-    left: 20vw;
-}
-
-.row-5.column-3 {
-    top: 80vw;
-    left: 40vw;
-}
-
-.row-5.column-4 {
-    top: 80vw;
-    left: 60vw;
-}
-
-.row-6.column-1 {
-    top: 100vw;
-    left: 0;
-}
-
-.row-6.column-2 {
-    top: 100vw;
-    left: 20vw;
-}
-
-.row-6.column-3 {
-    top: 100vw;
-    left: 40vw;
-}
-
-.row-6.column-4 {
-    top: 100vw;
-    left: 60vw;
+.column-6 {
+    left: 10vw;
 }
